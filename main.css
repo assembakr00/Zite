@@ -226,6 +226,13 @@ a:focus-visible {
     background-color: var(--accent-hover);
 }
 
+.theme-icon {
+    width: 24px;
+    height: 24px;
+    object-fit: contain;
+    vertical-align: middle;
+}
+
 
 
 .side-menu {
@@ -306,6 +313,13 @@ a:focus-visible {
 
 .menu-button:hover {
     background-color: var(--accent-hover);
+}
+
+.menu-icon {
+    width: 24px;
+    height: 24px;
+    object-fit: contain;
+    vertical-align: middle;
 }
 
 

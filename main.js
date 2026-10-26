@@ -1,6 +1,7 @@
 document.getElementById('year').textContent = new Date().getFullYear();
 
 const themebutton = document.getElementById("theme-toggle")
+const themeIcon = themebutton.querySelector("img");
 const htmlElement = document.documentElement;
 
 
@@ -10,7 +11,8 @@ themebutton.addEventListener("click", () => {
 
     htmlElement.setAttribute("data-theme", nextTheme);
     themebutton.setAttribute("aria-label", `Switch to ${nextTheme === "light" ? "dark" : "light"} theme`);
-    themebutton.querySelector("i").className = nextTheme === "light" ? "fa-solid fa-sun" : "fa-solid fa-moon";
+    themeIcon.src = nextTheme === "light" ? "Sun.png" : "Moon.png";
+    themeIcon.alt = nextTheme === "light" ? "Sun" : "Moon";
 
 });
 
