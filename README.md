@@ -6,7 +6,7 @@ The site is intentionally simple and fast: a static HTML/CSS/js project with a c
 
 ## Live Site
 
-- https://assembakr00.github.io/Personal-Site
+- https://assembakr00.github.io/Zite
 
 ## Overview
 
